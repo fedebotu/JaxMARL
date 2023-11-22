@@ -38,4 +38,4 @@ jobs:
         pip install -e '.[dev]'
 
     - name: Run pytest
-      run: pytest tests/*.py
+      run: pytest tests
